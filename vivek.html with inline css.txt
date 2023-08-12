@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+        . {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(3, 3, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(8, 8, 99);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            margin: 0 25px;
+            color: white;
+
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(185, 185, 212);
+            font-size: 1.1rem;
+        }
+
+        .left1 {
+            font-size: 25px;
+        }
+
+        .first {
+            margin-top: 50px;
+            margin-left: 50px;
+            color: white;
+            line-height: 25px;
+        }
+
+        .first1 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+
+
+        }
+
+        .left {
+            font-size: 2.5rem;
+            color: white;
+        }
+
+        .first2 {
+            width: 320px;
+            margin-top: 40px;
+
+        }
+
+        .purple {
+            color: darkviolet;
+        }
+
+        .grey {
+            color: chocolate;
+        }
+
+        #element {
+            color: darkslategrey;
+        }
+
+        main hr {
+            height: 0px;
+            color: teal;
+            margin: 45px 80px;
+
+        }
+
+        .education {
+            margin-left: 75px;
+        }
+
+        .education table {
+            width: 1200px;
+            height: 200px;
+            text-align: center;
+        }
+
+        .certificate h3 {
+            margin-left: 75px;
+        }
+
+        .certificate ul li {
+            margin-left: 75px;
+            line-height: 50px;
+            font-size: 25px;
+
+        }
+
+        .skill {
+            margin-left: 68px;
+            margin-top: 50px;
+
+        }
+
+        .box {
+            height: 2px;
+            background-color: white;
+            margin: 70px 70px 40px;
+            display: flex;
+        }
+
+        .verticle {
+            background-color: white;
+            height: 60px;
+            width: 2px;
+            margin: 0px 90px 20px;
+            text-align: verticle;
+        }
+
+        .verticletext {
+            position: relative;
+            margin-top: 48px;
+            text-align: center;
+
+
+        }
+
+        .newhr {
+            margin-top: 400px;
+            color: white;
+        }
+
+        .btn {
+            border: 4px solid gray;
+            color: white;
+            background-color: rgb(66, 9, 66);
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        .cricket {
+            margin-left: 65px;
+        }
+
+        .cricket ul li {
+            font-size: 20px;
+            line-height: 40px;
+
+        }
+
+        .project {
+            margin-left: 68px;
+            margin-bottom: 20px;
+        }
+
+        .project ol li {
+            font-size: 20px;
+            line-height: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left1">Vivek's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <li><a href="/">Project</a></li>
+                    <li><a href="/">Service</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first1">
+            <div class="left">
+                My name is <span class="purple">Vivek</span>
+                <br>
+                And i am a
+                <span class="grey">Enthusiastic</span>
+                <br>
+
+                <span id="element"></span>
+                <br>
+                <button class="btn"> Download Resume</button>
+                <button class="btn">Github</button>
+
+            </div>
+            <div class="first2"><img src="web.png.png" width="300px" height="300px" alt="">
+            </div>
+
+
+
+        </section>
+        <hr>
+        <section class="education">
+            <h3>Education:-</h3>
+            <table border="10px">
+                <thead>
+
+                    <th></th>
+                    <th>College Name</th>
+                    <th>Board</th>
+                    <th>Passing Year</th>
+                    <th>Percentage %</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Btech:</td>
+                        <td>BIT SINDRI</td>
+                        <td>JUT</td>
+                        <td>APPEARING</td>
+                        <td>8.3 CGPA(UP TO 5TH SEM)</td>
+                    </tr>
+                    <tr>
+                        <td>Diploma:</td>
+                        <td>BAHARAGORA POLYTECHNIC</td>
+                        <td>JUT</td>
+                        <td>2020</td>
+                        <td>84.6</td>
+                    </tr>
+                    <tr>
+                        <td>Senior Secondry:</td>
+                        <td>A A M INTER COLLEGE</td>
+                        <td>JAC</td>
+                        <td>2016</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>Secondry Examination:</td>
+                        <td>NRM HIGH SCHOOL</td>
+                        <td>JAC</td>
+                        <td>2014</td>
+                        <td>76</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+        <hr>
+        <section class="certificate">
+            <h3>Certification:</h3>
+            <ul>
+                <li>Certified in DATA BASE MANAGEMENT SYSTEM by NPTEL(IIT KHARAGPUR).</li>
+                <li>Certified in PYTHON PROGRAMMING by SPOKEN TUTORIAL(IIT BOMBAY).</li>
+                <li>participation certificate in EDUCATION FAIR by INTERNSHALA.</li>
+            </ul>
+        </section>
+        <br>
+        <br>
+        <section class="skill">
+            <h3>Skills:-</h3>
+        </section>
+
+        <div class="box">
+            <div class="verticle">
+                <div class="imagehtml1"><img
+                        src="https://www.google.com/imgres?imgurl=https://img.freepik.com/free-icon/html-5_318-674234.jpg?w%3D360&imgrefurl=https://www.freepik.com/free-photos-vectors/html-logo&h=360&w=360&tbnid=30Y5nd5IcAVJlM&tbnh=225&tbnw=225&usg=AI4_-kR9LAnWivflgifbvnM2GwYl0xUvHA&vet=1&docid=EGwcawDpfsdzKM"
+                        alt=""></div>
+                <div class="verticletext">
+                    <h3>HTML</h3>
+                </div>
+            </div>
+            <div class="verticle">
+                <div class="imagehtml"><img src="" alt=""></div>
+                <div class="verticletext">
+                    <h3>CSS</h3>
+                </div>
+            </div>
+            <div class="verticle">
+                <div class="imagehtml"><img src="" alt=""></div>
+                <div class="verticletext">
+                    <h3>JAVASCRIPT</h3>
+                </div>
+            </div>
+            <div class="verticle">
+                <div class="imagehtml"><img src="" alt=""></div>
+                <div class="verticletext">
+                    <h3>C++</h3>
+                </div>
+            </div>
+            <div class="verticle">
+                <div class="imagehtml"><img src="" alt=""></div>
+                <div class="verticletext">
+                    <h3>MY SQL</h3>
+                </div>
+            </div>
+            <div class="verticle">
+                <div class="imagehtml"><img src="" alt=""></div>
+                <div class="verticletext">
+                    <h3>PYTHON</h3>
+                </div>
+            </div>
+            <div class="verticle">
+                <div class="imagehtml"><img src="" alt=""></div>
+                <div class="verticletext">
+                    <h3>MS WORD</h3>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr id="newhr">
+        <div class="cricket">
+            <h3>Hobbies:-</h3>
+            <ul>
+                <li>playing piano.</li>
+                <li>Cooking.</li>
+                <li> Playing Cricket.</li>
+                <li>Watching documentry.</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div class="project">
+            <h3>Projects:-</h3>
+            <ol>
+                <li>Portfolio website using HTML,CSS and JAVASCRIPT.</li>
+                <li>E-commerce company MYNTRA clone.</li>
+                <li>Attendence managment system using PHP and MY SQL.</li>
+                <li>Face recogination attendence using PYTHON</li>
+            </ol>
+        </div>
+        <br>
+        <br>
+        <br>
+        <footer>
+            <center>@copyright are reserved.</center>
+        </footer>
+
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer.', 'Web designer.', 'Video Editor.'],
+            typeSpeed: 60,
+        });
+    </script>
+</body>
+
+
+</body>
+
+</html>
